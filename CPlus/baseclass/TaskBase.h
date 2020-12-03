@@ -5,10 +5,10 @@
 class CTaskBase
 {
 public:
-	CTaskBase();
-	virtual ~CTaskBase();
+    CTaskBase();
+    virtual ~CTaskBase();
 
-	virtual void DoWork();
+    virtual void DoWork();
 };
 
 typedef std::shared_ptr<CTaskBase> CTaskBasePtr;
